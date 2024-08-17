@@ -1,0 +1,28 @@
+### PROFILE INFO
+GET http://localhost:8080/api/v1/profile-get-info?uid=f7866c86-4497-4501-baab-56adcea495d1
+
+
+
+### CHANGE PROFILE INFO
+PUT http://localhost:8080/api/v1/profile-change-info?uid=f7866c86-4497-4501-baab-56adcea495d1
+Content-Type: application/json
+
+{
+  "firstname": "Diyorbek",
+  "lastname": "Qurbonov"
+}
+
+
+
+### CHANGE PROFILE IMAGE
+PUT http://localhost:8080/api/v1/profile-change-image?uid=f7866c86-4497-4501-baab-56adcea495d1
+Content-Type: application/json
+
+{
+  "imageBytes": []
+}
+
+
+
+### DELETE PROFILE IMAGE
+DELETE http://localhost:8080/api/v1/profile-delete-image?uid=f7866c86-4497-4501-baab-56adcea495d1

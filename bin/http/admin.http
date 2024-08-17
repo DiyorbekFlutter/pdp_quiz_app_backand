@@ -1,0 +1,49 @@
+### LOGIN
+POST http://localhost:8080/api/v1/admin/auth/login
+Content-Type: application/json
+
+{
+  "email": "diyorbekflutter@gmail.com",
+  "password": "diyorbek4926"
+}
+
+
+### GET TCHNOLOGIES
+GET http://localhost:8080/api/v1/admin/questions-technologies
+
+
+### ADD TCHNOLOGY
+POST http://localhost:8080/api/v1/admin/questions-add-technology
+Content-Type: application/json
+
+{
+  "title": "Flutter",
+  "imageBytes": []
+}
+
+
+### UPDATE TCHNOLOGY
+PUT http://localhost:8080/api/v1/admin/questions-update-technology
+Content-Type: application/json
+
+{
+  "title": "Flutter",
+  "imageBytes": []
+}
+
+
+### DELETE TCHNOLOGY
+DELETE http://localhost:8080/api/v1/admin/questions-delete-technology
+Content-Type: application/json
+
+{
+  "technologyId": "technologyId"
+}
+
+
+
+
+###  ----------------------------------------------------------------------
+
+
+

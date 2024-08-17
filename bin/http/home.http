@@ -1,0 +1,22 @@
+### TECHNOLOGIES
+
+GET http://localhost:8080/api/v1/home-technologies?uid=ebf422c6-86f3-4fe1-9339-185524d1c186
+
+
+### IMAGES
+GET http://localhost:8080/api/v1/images/3d46738a-630d-4427-a892-9f35f8105fc9
+
+
+### MODULES
+GET http://localhost:8080/api/v1/home-modules?technologyId=e87e755e-7c48-4f90-8280-6d6aef677ca3&stage=easy
+
+
+### ADD BALL
+PUT http://localhost:8080/api/v1/home-add-ball?uid=f7866c86-4497-4501-baab-56adcea495d1
+Content-Type: application/json
+
+{
+  "technologyId": "ed5723e5-b572-4336-96ce-3a48bd0568da",
+  "stage": "easy",
+  "ball": 12
+}
